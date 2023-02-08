@@ -1,10 +1,10 @@
 <?php
 
 $db = [
-    'host' => 'localhost',
-    'username' => 'u112814601_ensayador',
-    'password' => 'Fidelitas123',
-    'db' => 'u112814601_ensayador' //Cambiar al nombre de tu base de datos
+    'host' => '20.171.45.32',
+    'username' => 'root',
+    'password' => '123456',
+    'db' => 'Ensayador' //Cambiar al nombre de tu base de datos
 ];
 
 ?>

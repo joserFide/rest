@@ -1,4 +1,4 @@
-<?php 
+<?php
 include "config.php";
 include "utils.php";
 
@@ -15,6 +15,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET')
       header("HTTP/1.1 200 OK");
       echo json_encode( $sql->fetchAll(PDO::FETCH_ASSOC)  );
       exit();
-	}
+        }
 }
 ?>
